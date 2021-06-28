@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia - Agendamento</title>
+
+    <!--GOOGLE ICON -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- MATERIALIZE CSS -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- MENU MOBILE -->
+
+        <ul class="side-nav light" id="menu-mobile">
+            <li><a class="hide-menu" href="index.html #home">Home</a></li>
+            <li><a class="hide-menu" href="index.html #sobre">Sobre</a></li>
+            <li><a class="hide-menu" href="index.html #servicos">Serviços</a></li>
+            <li><a class="hide-menu" href="index.html #unidades">Unidades</a></li>
+            <li><a class="hide-menu" href="index.html #contato">Contato</a></li>
+
+        </ul>
+
+        <div class="navbar-fixed"></div>
+        <nav class="navbar-agendamento z-depth-0">
+            <div class="nav-wrapper container">
+                <h1 class="logo_text">Barbearia</h1>
+                <a href=""><img class="logo logo_img" src="img/l2.png" alt="Barbearia"></a>
+
+                <ul class="right light hide-on-med-and-down">
+                    <li><a class="nav-red" href="index.html #home">Home</a></li>
+                    <li><a class="nav-blue" href="index.html #sobre">Sobre</a></li>
+                    <li><a class="nav-red" href="index.html #servicos">Serviços</a></li>
+                    <li><a class="nav-blue" href="index.html #unidades">Unidades</a></li>
+                    <li><a class="nav-red" href="index.html #contato">Contato</a></li>
+                </ul>
+
+
+                <a href="#" data-activates="menu-mobile" class="button-collapse right"><i
+                        class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        </div>
+
+    </header>
+
+
+    <!-- HOME AGENDAMENTOS -->
+
+    <section class="home-agendamento bloco scrollspy" id="home">
+        <div class="row container banner-agendamento">
+            <div class="col s12 center">
+                <h2 class="texto-blue-logo">Barbearia <br> Agendamento</h2>
+                <p class="white-text">Além do nosso aplicativo, agora você também pode realizar seu agendamento
+                    diretamente aqui do nosso site. Basta criar uma conta ou se você já é cliente da Barbearia
+                    e utiliza nosso aplicativo, basta apenas utilizar seu login e senha já cadastrado.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="login1 bloco">
+        <div class="container row bloco">
+            <iframe class="iframe-agendamento col s12" src="cadastro.html"></iframe>
+        </div>
+    </section>
+
+
+
+    <!-- RODAPÉ -->
+
+    <footer class="rodape">
+        <div class="row container center">
+            <img src="img/l2.png" alt="" class="logo_img">
+            <p class="light white-text">Barbearia 2020 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JQUARY -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- MATERIALIZE JS -->
+    <script src="js/materialize.js"></script>
+    <!-- JAVASCRIPT -->
+    <script>
+        // INICIALIZAÇÂO
+        $(document).ready(function () {
+            // MENU BOBILE
+            $(".button-collapse").sideNav();
+            // LINK INTERNO
+            $(".scrollspy").scrollSpy({
+                scrollOffset: 0
+            });
+            // CAROUSEL
+            $(".carousel.carousel-slider").carousel({
+                fullWidth: true
+            });
+            // ESCONDER MENU AO CLICAR
+            $(".hide-menu").click(function () {
+                $(".button-collapse").sideNav("hide");
+            });
+            //AUTOPLAY
+            function autoplay() {
+                $(".carousel").carousel("next");
+                setTimeout(autoplay, 4500);
+            }
+
+            autoplay();
+        });
+        // ADICIONANDO NAVCOLOR
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 100) {
+                $(".navbar").addClass("nav-color");
+            } else {
+                $(".navbar").removeClass("nav-color");
+            }
+        });
+    </script>
+</body>
+
+</html>

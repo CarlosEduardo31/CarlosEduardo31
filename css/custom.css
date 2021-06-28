@@ -1,0 +1,429 @@
+/* HEIGHT 100% */
+html,body {
+
+    height: 100%;
+}
+
+.bloco{
+    min-height: 100%;
+    padding-top: 94px;
+}
+
+/* COLORS */
+.blue-logo {
+    background-color:rgb(4, 3, 85) ;
+}
+
+.red-logo {
+    background-color: red;
+}
+
+/* LOGO */
+.logo_text {
+    font-size: 0;
+    margin: 0;
+}
+.logo_img {
+    width: 100px;
+    margin-top: 7px;
+}
+
+/* MENU */
+.navbar {
+    background-color: transparent;
+    transition: background 0.5s linear;
+}
+
+.navbar ul a:hover {
+    background-color: transparent;
+    color: rgb(144, 247, 247);
+}
+
+
+.navbar ul .nav-red:hover {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 1px rgb(255, 0, 0);
+}
+.navbar ul .nav-blue:hover {
+    background-color: transparent;
+    color: blue;
+    text-shadow: 0 0 1px blue;
+}
+
+.nav-color {
+    background-color: rgba(0,0,0,0.7);
+    transition: background 0.5s linear;
+}
+
+.logo {
+    width: 86px;
+}
+
+/* HOME */
+.home {
+    animation: mudarbg 20s infinite;
+    background-image: url('../img/teste.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.btn-sobre{
+    width: 149px;
+    height: 54px; 
+}
+
+.btn-sobre:hover {
+    background-color: rgba(4, 3, 85, 0.678);
+}
+
+.btn-contato {
+    width: 149px;
+    height: 54px; b
+}
+
+.btn-contato:hover {
+    background-color: rgba(255, 0, 0, 0.678);
+}
+
+/* HOME - ANIMATION */
+@keyframes mudarbg {
+    40% {background-image: url('../img/teste2.jpeg');}
+    80% {background-image: url('../img/teste3.jpeg');}
+    100% {background-image: url('../img/teste.jpeg');}
+}
+/* TITULO E PARAGRAFO */
+.titulo {
+   font-size: 2rem; 
+   text-transform: uppercase;
+}
+.titulo::after{
+    content: '';
+    display: block;
+    width: 100px;
+    border-top: 1px solid rgb(37, 194, 233);
+    margin: 15px auto;
+}
+.paragrafo{
+    line-height: 1.8rem;
+
+}
+/* SOBRE */
+.sobre {
+    background-image: url(../img/textura3.png);
+}
+
+.sobre p {
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.sobre .missao-visao-valores {
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.sobre .missao-visao-valores .icon {
+    color: #fff;
+}
+.sobre .missao-visao-valores h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.sobre .missao-visao-valores p {
+    color: #fff;
+    text-align: center;
+}
+
+/* SERVIÇOS */
+
+.servicos {
+    background-image: url(../img/textura2.png);
+}
+
+/* UNIDADES */
+
+.unidades {
+    background-image:url(../img/bg03.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.unidades article p {
+    line-height: 1.8rem;
+}
+
+/* CONTATO */
+
+.contato {
+    background-image: url('../img/textura1.png') ;
+}
+
+.contato .mapa {
+    min-height: 560px;
+}
+
+.contato .mapa iframe {
+    width: 100%;
+    min-height: 560px;
+    border: none;
+}
+.contato .informacoes {
+    background-image: url(../img/textura2.png);
+    min-height: 560px;
+    padding: 30px;
+}
+
+.contato h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.contato .formulario {
+    min-height: 560px;
+    padding: 30px;
+}
+
+.btn-enviar:hover {
+    background-color: rgba(4, 3, 85, 0.678);
+}
+
+/* DEPOIMENTOS */
+
+.depoimentos img {
+    width: 100px;
+}
+
+
+.depoimentos h4 {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    background-image: url(../img/bg-rodape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+
+/* CUSTOM */
+
+nav.nav-extended .nav-wrapper {
+    min-height: 94px;
+}
+
+.navbar-fixed {
+    position: absolute;
+    height: 94px;
+  }
+
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i {
+  height: 94px;
+  line-height: 94px;
+}
+
+.side-nav {
+    background: url(../img/textura2.png);
+    width: 360px;
+    top: 93px;
+}
+
+.side-nav li>a {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+
+
+/* PAGINA DE AGENDAMENTO */
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.flag-agendar {
+    
+    position: fixed;
+    top: 42%;
+    z-index: 1000;
+    padding: 80px 100px 0px;
+    background-image: url(../img/Agendamento01.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    color: #fff;
+    border-radius: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.text-flag-agendar {
+    font-family: Burfordrusticbook, sans-serif;
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+
+
+
+.home-agendamento {
+    
+    background-image: url('../img/2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.banner-agendamento h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+}
+
+.banner-agendamento p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    
+}
+
+.texto-blue-logo {
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+
+}
+
+.navbar-agendamento {
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    transition: background 0.5s linear;
+}
+
+.navbar2 {
+    position:absolute;
+    height: 56px;
+    z-index: 997;
+  }
+.navbar-agendamento ul .nav-red:hover {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 1px rgb(255, 0, 0);
+}
+.navbar-agendamento ul .nav-blue:hover {
+    background-color: transparent;
+    color: blue;
+    text-shadow: 0 0 1px blue;
+}
+  .cadastro {
+      background-image:url(../img/textura3.png)
+  }
+  
+  .input-field label {
+     color: rgb(0, 0, 0);
+     text-shadow: 0 0 1px rgb(255, 255, 255);
+   }
+
+.iframe-agendamento {
+    border: none;
+    height: 900px;
+}
+
+.login1 {
+    background-image: url(../img/bg01.jpg);
+    background-size: cover;
+    opacity: 0.94;
+ }
+
+ .registro {
+    /*background-image: url(../img/1.jpg);
+    background-color: rgba(28, 137, 228, 0.42);
+    opacity: 0.94;
+    background-size: cover;*/
+}
+
+
+
+
+/* MEDIA */
+
+@media only screen and (max-width:480px) {
+    .card-image-horizontal{ display: none;}
+    .background-celular {animation: none; background-image: url(../img/bgcelular1.jpeg);
+    background-repeat: no-repeat; background-size: cover;}
+
+    .flag-agendar {
+        left: 0;
+        top: auto;
+        right: 0;
+        bottom: 0%;
+        text-align: center;
+        background-image: url(../img/200px.png);
+        background-size: 357px 59px;
+        background-repeat: no-repeat;
+        border-radius: 0;
+        padding: 59px 179px 0px;
+
+        }
+        .bloco2 {
+            padding: 0px 46px 0px 46px;
+        }
+
+        .bloco-cadastro {
+            min-height: 51%;
+            padding-top: 70px;
+        }
+        .registro {
+            /*background-image: url(../img/1.jpg);
+              background-size: cover;
+
+            background-color: #fff;*/
+            
+        }
+
+}
+
+@media only screen and (min-width:601px) {
+    .banner{padding-top: 4.5rem;}
+    .banner h2 {font-size: 4rem;}
+    .container {width: 80;}
+    .banner-agendamento{padding-top: 4.5rem;}
+    .banner-agendamento h2 {font-size: 1.5rem;}
+    .container-agendamento {width: 80;}
+    
+}
+@media only screen and (min-width:993px) {
+    .banner{padding-top: 5rem;}
+    .banner h2 {font-size: 5rem;}
+    .container {width: 85%;}
+    .banner-agendamento{padding-top: 5rem;}
+    .banner-agendamento h2 {font-size: 5rem;}
+    .container-agendamento {width: 85%;}
+}
+

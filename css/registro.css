@@ -1,0 +1,125 @@
+body {
+    font-family: Dosis, sans-serif;
+    color: #7f7f7f;
+    font-size: 20px;
+    line-height: 120%;
+}
+.bloco-cadastro {
+   /* min-height: 60%;
+    padding-top: 58px;*/
+
+    position: relative;
+    display: block;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 70px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.82);
+    background-image: url(../images/bg-text-branca.jpg);
+    background-position: 0px 0px;
+    background-size: 801px;
+    box-shadow: 0 8px 15px 0 #000;
+}
+
+.bloco2{
+    /*min-height: 51%;
+    padding-top: 94px;*/
+    padding: 0px 125px 0px 125px;
+}
+asregistro {
+    /*background-image: url(../img/1.jpg);
+	background-size: cover;*/
+    background-color:  rgba(255, 255, 255, 0.82);
+    opacity: 0.94;
+    
+}
+
+.btn-registro {
+    padding-top: 10px;
+}
+
+
+.titulo-login {
+    
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Archer, sans-serif !important;
+    
+    font-size: 60px !important;
+    line-height: 100%;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.c-iframe-agende {
+    position: relative;
+    display: block;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 70px;
+    border-radius: 3px;
+    background-image: url(../images/bg-text-branca.jpg);
+    background-position: 0px 0px;
+    background-size: 801px;
+    box-shadow: 0 8px 15px 0 #000;
+}
+
+
+
+@media only screen and (max-width:480px) {
+    .card-image-horizontal{ display: none;}
+    .background-celular {animation: none; background-image: url(../img/bgcelular1.jpeg);
+    background-repeat: no-repeat; background-size: cover;}
+
+    .flag-agendar {
+        left: 0;
+        top: auto;
+        right: 0;
+        bottom: 0%;
+        text-align: center;
+        background-image: url(../img/200px.png);
+        background-size: 357px 59px;
+        background-repeat: no-repeat;
+        border-radius: 0;
+        padding: 59px 179px 0px;
+
+        }
+        .bloco2 {
+            padding: 0px 46px 0px 46px;
+        }
+
+        .bloco-cadastro {
+            min-height: 51%;
+            padding-top: 70px;
+        }
+
+        .registro {
+           /* background-image: url(../img/textura3.png);
+            background-color: rgba(28, 137, 228, 0.42);
+            opacity: 0.94;
+            background-size: cover; */
+        }
+}
+
+@media only screen and (min-width:601px) {
+    .banner{padding-top: 4.5rem;}
+    .banner h2 {font-size: 4rem;}
+    .container {width: 80;}
+    .banner-agendamento{padding-top: 4.5rem;}
+    .banner-agendamento h2 {font-size: 1.5rem;}
+    .container-agendamento {width: 80;}
+    
+}
+@media only screen and (min-width:993px) {
+    .banner{padding-top: 5rem;}
+    .banner h2 {font-size: 5rem;}
+    .container {width: 85%;}
+    .banner-agendamento{padding-top: 5rem;}
+    .banner-agendamento h2 {font-size: 5rem;}
+    .container-agendamento {width: 85%;}
+}
+
