@@ -1,7 +1,7 @@
 ## Olá 👋! Eu sou o Carlos Eduardo
 - 🌱 Estudando TypeScript, HTML, CSS, JavaScript
 
-<div align="center">
+<div align="left">
   <a href="https://github.com/carloseduardo31">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=carloseduardo31&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carloseduardo31&layout=compact&langs_count=7&theme=dark"/>
