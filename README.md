@@ -3,7 +3,8 @@
 Formando em Analise e desenvolvimento de sistemas, participando dos programas, formação acelerada em programação (Back-end) pela Softex Recife e Desenvolvimento Front-end +PraTi pela escola Happypoa Porto Alegre.
 
 <div style="display: inline_block"><br>
-Em aprendizado
+  Em aprendizado:
+  <br>
   <img align="center" alt="Carlos-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Carlos-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Carlos-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -12,7 +13,7 @@ Em aprendizado
   <img align="center" alt="Carlos-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
 </div>
 </br>
-Carlos Eduardo é uma pessoa que possui um controle emocional, empatia facilidade em trabalhar em grupo, tenho como objetivo estagiar na área de desenvolvimento front-end ou back-end.
+Carlos Eduardo é uma pessoa que possui um controle emocional, empatia facilidade em trabalhar em grupo, tem como objetivo estagiar na área de desenvolvimento front-end ou back-end.
 </br>
 
 ##
