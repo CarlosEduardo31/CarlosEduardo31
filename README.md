@@ -11,9 +11,10 @@ Formando em Analise e desenvolvimento de sistemas, participando dos programas, f
   <img align="center" alt="Carlos-Nodejs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
   <img align="center" alt="Carlos-MySql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
   <img align="center" alt="Carlos-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
+  <img align="center" alt="Carlos-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 </div>
 </br>
-Carlos Eduardo é uma pessoa que possui um controle emocional, empatia facilidade em trabalhar em grupo, tem como objetivo estagiar na área de desenvolvimento front-end ou back-end.
+Carlos é uma pessoa com um bom controle emocional, empatia e facilidade em trabalhar em grupo. Seu objetivo é estagiar na área de desenvolvimento, tanto front-end quanto back-end.
 </br>
 
 ##
