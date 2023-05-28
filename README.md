@@ -4,14 +4,10 @@ Formando em Analise e desenvolvimento de sistemas, participando dos programas, f
 
 <div style="display: inline_block"><br>
   Em aprendizado:
-  <br>
-  <img align="center" alt="Carlos-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Carlos-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Carlos-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Carlos-Nodejs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
-  <img align="center" alt="Carlos-MySql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-  <img align="center" alt="Carlos-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
-  <img align="center" alt="Carlos-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <br><br>
+  <a href="https://skillicons.dev">
+     <img src="https://skillicons.dev/icons?i=javascript,html,css,bootstrap,react,dart,flutter,figma,mysql,nodejs" />
+  </a>
 </div>
 </br>
 Carlos é uma pessoa com um bom controle emocional, empatia e facilidade em trabalhar em grupo. Seu objetivo é estagiar na área de desenvolvimento, tanto front-end quanto back-end.
