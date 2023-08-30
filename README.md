@@ -1,4 +1,4 @@
-## Olá 👋! Eu sou o Carlos Eduardo
+# Olá 👋! Eu sou o Carlos Eduardo
 
 - 🎓 Formação: Técnico em Informática, cursando Análise e Desenvolvimento de Sistemas.
 - 🚀 Habilidades: HTML5, CSS3, JavaScript, Dart, Flutter, Bootstrap, Node.js, SQL.
@@ -8,26 +8,24 @@
 
 Estou animado para enfrentar novos desafios e deixar minha marca na indústria. Vamos conectar! 🌐
 
-<div style="display: inline_block"><br>
-  Em aprendizado:
-  <br><br>
+## Em aprendizado:
   <a href="https://skillicons.dev">
      <img src="https://skillicons.dev/icons?i=javascript,html,css,bootstrap,react,dart,flutter,figma,mysql,nodejs" />
   </a>
-<!-- </div>
-</br>
-Carlos é uma pessoa com um bom controle emocional, empatia e facilidade em trabalhar em grupo. Seu objetivo é estagiar na área de desenvolvimento, tanto front-end quanto back-end.
-</br> -->
 
-##
+## Conecte-se comigo:
+
+<a href="https://www.linkedin.com/in/carlos-eduardo-adolfo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<a href="https://desenvolvedorcarloseduardo.web.app/" target="_blank"><img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" target="_blank"></a> 
+  
+## Github Status:
+
+![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=carloseduardo31&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
  
-<div> 
-  <a href="https://www.linkedin.com/in/carlos-eduardo-adolfo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-   <a href="https://desenvolvedorcarloseduardo.web.app/" target="_blank"><img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" target="_blank"></a> 
-  
-  ![Snake animation](https://github.com/carloseduardo31/carloseduardo31/blob/output/github-contribution-grid-snake.svg)
-  
-</div>
+ ##
+ 
+ ![Snake animation](https://github.com/carloseduardo31/carloseduardo31/blob/output/github-contribution-grid-snake.svg)  
+
 
 <!--
 **CarlosEduardo31/CarlosEduardo31** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
