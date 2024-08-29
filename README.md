@@ -1,6 +1,6 @@
 # Olá 👋! Eu sou o Carlos Eduardo
 
-- 🎓 Formação: Técnico em Informática, cursando Análise e Desenvolvimento de Sistemas.
+- 🎓 Formação: Técnico em Informática <!--, cursando Análise e Desenvolvimento de Sistemas. -->
 - 🚀 Habilidades: HTML5, CSS3, JavaScript, Dart, Flutter, Bootstrap, Node.js, SQL.
 - 💼 Experiência: Sete meses de estágio, liderando equipes e criando MVP, site e app.
 - 🏆 Conquistas: 2º lugar no Hackathon Inova Criativa 2023, 4º lugar na Maratona de Negócios Campus Party Brasil 2023.
